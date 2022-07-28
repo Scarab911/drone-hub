@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.description {
+    display: grid;
+    place-items: center;
+}
+
+.description button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.image {
+    background-color: aqua;
+    width: 50%;
+}
