@@ -1,19 +1,28 @@
-.container {
+.hero-container {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
 }
 
 .description {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 35px;
+    align-items: center;
+    background-color: #F9F9F9;
+    color: #000;
+}
+
+.description p {
+    text-align: center;
 }
 
 .description button {
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
-    background-color: blueviolet;
+    background-color: #02C172;
     color: #fff;
 }
 

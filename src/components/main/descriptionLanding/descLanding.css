@@ -1,0 +1,42 @@
+.image1 {
+    grid-area: img1;
+    background-image: url('../../../../public/pic1.png');
+    height: 459px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image2 {
+    grid-area: img2;
+    background-image: url('../../../../public/pic2.png');
+    height: 459px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.desc1 {
+    grid-area: desc1;
+    text-align: right;
+    padding-left: 80px;
+}
+
+.desc2 {
+    grid-area: desc2;
+    text-align: left;
+    padding-right: 80px;
+}
+
+.desc1,
+.desc2 {
+    place-self: center;
+}
+
+.desc-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'img2 desc1 '
+        'desc2 img1';
+    gap: 20px;
+}

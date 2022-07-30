@@ -3,7 +3,7 @@ import './header.css';
 
 export default function Header() {
   return (
-    <div className="container">
+    <div className="header-container">
       <div>LOGO</div>
       <div>SEARCH BAR</div>
       <div>CITY</div>

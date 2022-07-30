@@ -3,9 +3,12 @@ import './hero.css';
 
 export default function Hero() {
   return (
-    <div className="container">
+    <div className="hero-container">
       <div className="description">
-        <p>hero works!</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Consequuntur, pariatur.
+        </p>
         <button>More info</button>
       </div>
       <div className="image"></div>

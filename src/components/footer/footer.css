@@ -1,0 +1,14 @@
+.footer-container {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(5, auto);
+    padding: 15px 100px;
+    background-color: #000;
+    color: #fff;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
