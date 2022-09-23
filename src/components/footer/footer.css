@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, auto);
     margin-top: 30px;
-    padding: 15px 100px;
+    padding: 30px 100px;
     background-color: #000;
     color: #fff;
     gap: 50px;
@@ -13,6 +13,11 @@
     gap: 5px;
 }
 
+/* .column:first-of-type,
+.column:last-of-type {
+    display: flex;
+    flex-direction: column;
+} */
 .column:first-of-type {
     display: flex;
     flex-direction: column;
@@ -21,6 +26,15 @@
 .column .links {
     display: flex;
     gap: 15px;
+}
+
+.socials {
+    flex-wrap: wrap;
+}
+
+.socials img {
+    max-height: 33px;
+    width: auto;
 }
 
 li {

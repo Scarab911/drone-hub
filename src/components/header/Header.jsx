@@ -12,13 +12,13 @@ export default function Header() {
           <input type="text" placeholder="Find profesional" />
         </div>
         <nav>
-          <a href="#">
+          <a href="/">
             Miestas<span>&or;</span>
           </a>
-          <a href="#">
+          <a href="/">
             Paslaugos<span>&or;</span>
           </a>
-          <a href="#">
+          <a href="/">
             Parduotuve<span>&or;</span>
           </a>
         </nav>

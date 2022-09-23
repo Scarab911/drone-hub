@@ -1,5 +1,7 @@
 import React from 'react';
 import './footer.css';
+import InstagramIcon from '../../assets/icons/in.png';
+import FacebookIcon from '../../assets/icons/fb.png';
 
 export default function() {
   return (
@@ -41,7 +43,14 @@ export default function() {
           </ul>
         </div>
       </div>
-      <div className="column">SOCIALS</div>
+      <div className="column socials">
+        <img src={FacebookIcon} alt="instagram" />
+        <img src={InstagramIcon} alt="instagram" />
+        <img src={FacebookIcon} alt="instagram" />
+        <img src={InstagramIcon} alt="instagram" />
+        <img src={FacebookIcon} alt="instagram" />
+        <img src={InstagramIcon} alt="instagram" />
+      </div>
     </div>
   );
 }

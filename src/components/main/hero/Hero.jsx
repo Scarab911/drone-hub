@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
         <div className="button">Sužinoti daugiau</div>
       </div>
-      <img src={descriptionImg} alt="Drone Image" />
+      <img src={descriptionImg} alt="Man with drone" />
     </div>
   );
 }
