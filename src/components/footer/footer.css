@@ -1,14 +1,28 @@
 .footer-container {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(3, auto);
+    margin-top: 30px;
     padding: 15px 100px;
     background-color: #000;
     color: #fff;
+    gap: 50px;
 }
 
 .column {
     display: flex;
-    flex-direction: column;
     gap: 5px;
+}
+
+.column:first-of-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.column .links {
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style-type: none;
 }

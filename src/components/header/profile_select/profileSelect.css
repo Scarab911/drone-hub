@@ -1,0 +1,13 @@
+.profile-select-container {
+    border-radius: 26px;
+    padding: 4px 6px;
+    border: solid 1px #00000069;
+    cursor: pointer;
+}
+
+.profile-select-container span {
+    font-size: 12px;
+    line-height: 29px;
+    margin-left: 2px;
+    font-weight: 700;
+}

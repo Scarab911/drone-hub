@@ -1,11 +1,13 @@
 import React from 'react';
 import './descLanding.css';
+import Drone1 from '../../../assets/images/drone.png';
+import Drone2 from '../../../assets/images/img1.png';
 
 export default function DescLanding() {
   return (
     <div className="desc-container">
-      <div className="image1 img"></div>
-      <div className="image2 img"></div>
+      <img src={Drone1} alt="drone in air" className="image2 img" />
+      <img src={Drone2} alt="drone on table" className="image1 img" />
       <div className="desc1">
         <h1>Lorem, ipsum dolor.</h1>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum

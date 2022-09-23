@@ -1,6 +1,60 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  background-color: green;
-  margin: 0 100px;
+  align-items: center;
+  margin: 20px 100px;
+}
+
+.mid-content {
+  display: flex;
+  gap: 20px;
+}
+
+.search-bar input {
+  line-height: 32px;
+  border: 1px solid #efefef;
+  border-radius: 19px;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.search-bar::before {
+  content: url(../../assets/icons/search.png);
+  width: 15px;
+  position: relative;
+  right: -25px;
+  top: 9px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  line-height: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+nav a span {
+  font-size: 12px;
+  line-height: 32px;
+  margin-left: 2px;
+  font-weight: 700;
+}
+
+.selections {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.lang-select,
+.acc-select {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import './hero.css';
 
+import descriptionImg from '../../../assets/images/description_drone.png';
+
 export default function Hero() {
   return (
     <div className="hero-container">
@@ -9,9 +11,9 @@ export default function Hero() {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Consequuntur, pariatur.
         </p>
-        <button>More info</button>
+        <div className="button">Sužinoti daugiau</div>
       </div>
-      <div className="image"></div>
+      <img src={descriptionImg} alt="Drone Image" />
     </div>
   );
 }

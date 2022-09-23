@@ -1,0 +1,10 @@
+.lang-select-container {
+    cursor: pointer;
+}
+
+.lang-select-container span {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 2px;
+    font-weight: 700;
+}
