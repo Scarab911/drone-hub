@@ -1,5 +1,7 @@
 .lang-select-container {
     cursor: pointer;
+    align-items: center;
+    display: flex;
 }
 
 .lang-select-container span {

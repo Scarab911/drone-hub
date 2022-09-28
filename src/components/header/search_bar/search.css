@@ -1,0 +1,16 @@
+.search-bar input {
+    line-height: 32px;
+    border: 1px solid #efefef;
+    border-radius: 19px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.search-bar::before {
+    content: url(../../../assets/icons/search.png);
+    width: 15px;
+    position: relative;
+    right: -25px;
+    top: 9px;
+}

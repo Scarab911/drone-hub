@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    line-height: 32px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.links a:hover {
+    color: aqua;
+}
+
+.links a span {
+    font-size: 12px;
+    line-height: 32px;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+nav .selections {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.lang-select,
+.acc-select {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
