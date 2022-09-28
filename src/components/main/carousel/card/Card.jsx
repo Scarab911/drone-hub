@@ -1,7 +1,7 @@
 import React from 'react';
 import './card.css';
-import ArrowBtn from '../../assets/icons/right.png';
-import CardImg from '../../assets/images/city.png';
+import ArrowBtn from '../../../../assets/icons/right.png';
+import CardImg from '../../../../assets/images/city.png';
 
 export default function Card() {
   return (

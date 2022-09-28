@@ -27,6 +27,11 @@
     cursor: pointer;
 }
 
+.description .button:hover {
+
+    background-color: #02c171bb;
+}
+
 .hero-container img {
     max-width: 100%;
     height: auto;

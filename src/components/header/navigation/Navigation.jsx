@@ -13,7 +13,7 @@ export default function Navigation() {
         <a href="/">
           Paslaugos<span>&or;</span>
         </a>
-        <a href="/">Parduotuve</a>
+        <a href="/">Parduotuvė</a>
       </div>
       <div className="selections">
         <LanguageSelector />
