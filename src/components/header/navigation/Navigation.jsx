@@ -2,6 +2,7 @@ import React from 'react';
 import './navigation.css';
 import LanguageSelector from '../lang_select/LanguageSelector';
 import ProfileSelect from '../profile_select/ProfileSelect';
+import DropDownMenu from '../profile_select/drop_down_menu/DropDownMenu';
 
 export default function Navigation() {
   return (
@@ -17,7 +18,9 @@ export default function Navigation() {
       </div>
       <div className="selections">
         <LanguageSelector />
-        <ProfileSelect />
+        <ProfileSelect>
+          <DropDownMenu></DropDownMenu>
+        </ProfileSelect>
       </div>
     </nav>
   );

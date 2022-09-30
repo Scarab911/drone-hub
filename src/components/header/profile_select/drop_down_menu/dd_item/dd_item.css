@@ -1,0 +1,11 @@
+.dropdown-item {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f9f9f9f7;
+    transition: filter 500ms;
+    width: max-content;
+}
+
+.dropdown-item:hover {
+    filter: brightness(0.8);
+}
