@@ -3,7 +3,7 @@ import './footer.css';
 import InstagramIcon from '../../assets/icons/in.png';
 import FacebookIcon from '../../assets/icons/fb.png';
 
-export default function() {
+export default function Footer() {
   return (
     <div className="footer-container">
       <div className="column">
