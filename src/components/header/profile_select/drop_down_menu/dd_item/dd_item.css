@@ -6,6 +6,11 @@
     width: max-content;
 }
 
+.dropdown-item a {
+    text-decoration: none;
+    color: #000;
+}
+
 .dropdown-item:hover {
     filter: brightness(0.8);
 }
