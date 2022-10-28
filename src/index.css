@@ -22,3 +22,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*LOGIN AND REGISTER FORMS  BUTTON CSS GLOBAL*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 90px;
+  background-color: #F9F9F9;
+  border-radius: 20px;
+  margin: 45px 0 35px 0;
+}
+
+form h3 {
+  text-align: center;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  font-size: 10px;
+  color: #c4c4c4;
+}
+
+form input {
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  padding: 10px 15px;
+  width: 35ch;
+  cursor: pointer;
+}
+
+form input:focus-visible {
+  outline: 1px solid #02C172;
+}
+
+form .links a {
+  text-align: center;
+  font-size: 10px;
+  color: #02C172;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #02C172;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #02c171bb;
+}

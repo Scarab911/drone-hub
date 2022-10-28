@@ -1,0 +1,33 @@
+.main-container {
+    display: grid;
+    place-items: center;
+}
+
+.login {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.login .home-image {
+    margin-right: 5px;
+    max-width: 23px;
+    height: auto;
+    cursor: pointer;
+}
+
+.login .arrow-image {
+    margin-right: 5px;
+    margin-top: 7px;
+    width: 15px;
+    height: auto;
+    rotate: -90deg;
+}
+
+.main-container .links {
+    margin-bottom: 100px;
+    justify-content: center;
+}
