@@ -6,14 +6,17 @@ import { Link } from 'react-router-dom';
 export default function DropDownMenu() {
   return (
     <div className="drop-down-menu">
-      <DropDownItem>
+      {/* <DropDownItem>
         <Link to="/setttings">Nustatymai</Link>
       </DropDownItem>
       <DropDownItem>
         <Link to="/orders">Užsakymai</Link>
-      </DropDownItem>
-      <DropDownItem>
+      </DropDownItem> */}
+      {/* <DropDownItem>
         <Link to="/">Atsijungti</Link>
+      </DropDownItem> */}
+      <DropDownItem>
+        <Link to="/register">Registruotis</Link>
       </DropDownItem>
       <DropDownItem>
         <Link to="/login">Prisijungti</Link>
