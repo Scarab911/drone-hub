@@ -11,7 +11,9 @@ Hello my name is Paul'ius and this project is meant to showcase my web developem
 - **GitHub Issues**
 - **Brances**
 - **Not** responsive design?
-- Design custom made by fresh UX designer Kestutis Lukosevicius.
+- Design custom made by UX designer [Kestutis Lukosevicius](https://www.linkedin.com/in/kestutis-lukosevicius-459230175/).
+
+[<img src='./src/assets/design/homePage.png' width='200px' height='300px'>](./src/assets/design/homePage.png)
 
 ### Techniques used:
 
