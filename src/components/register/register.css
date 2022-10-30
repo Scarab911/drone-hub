@@ -27,11 +27,8 @@
     rotate: -90deg;
 }
 
-.main-container .links {
+.main-container form .links {
     margin-bottom: 100px;
     justify-content: center;
-}
-
-.links {
     font-size: 10px;
 }
