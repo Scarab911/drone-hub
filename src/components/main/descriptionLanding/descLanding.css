@@ -1,12 +1,12 @@
 .image1 {
     grid-area: img1;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
 .image2 {
     grid-area: img2;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 

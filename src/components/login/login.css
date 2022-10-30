@@ -22,7 +22,7 @@
 .login .arrow-image {
     margin-right: 5px;
     margin-top: 7px;
-    width: 15px;
+    max-width: 15px;
     height: auto;
     rotate: -90deg;
 }

@@ -7,9 +7,13 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.search-bar {
+    max-height: fit-content;
+}
+
 .search-bar::before {
     content: url(../../../assets/icons/search.png);
-    width: 15px;
+    max-width: 15px;
     position: relative;
     right: -25px;
     top: 9px;
