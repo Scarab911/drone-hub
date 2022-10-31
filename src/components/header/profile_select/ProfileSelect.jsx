@@ -23,7 +23,7 @@ export default function ProfileSelect(props) {
     document.body.addEventListener('click', checkIfClickedOutside);
     return () =>
       document.body.removeEventListener('click', checkIfClickedOutside);
-  }, [setOpen]);
+  }, [setOpen, open]);
 
   return (
     <div
