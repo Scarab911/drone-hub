@@ -7,7 +7,7 @@ import arrow from '../../../src/assets/icons/down.png';
 export default function Login() {
   return (
     <div className="main-container">
-      <div className="login">
+      <div className="location-bar">
         <Link to="/">
           <img className="home-image" src={home} alt="home"></img>
         </Link>

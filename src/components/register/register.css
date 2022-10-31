@@ -3,30 +3,6 @@
     place-items: center;
 }
 
-.register {
-    width: 100%;
-    padding: 10px 15px;
-    border-radius: 20px;
-    background-color: #f9f9f9;
-    font-size: 16px;
-    line-height: 25px;
-}
-
-.register .home-image {
-    margin-right: 5px;
-    max-width: 23px;
-    height: auto;
-    cursor: pointer;
-}
-
-.register .arrow-image {
-    margin-right: 5px;
-    margin-top: 7px;
-    width: 15px;
-    height: auto;
-    rotate: -90deg;
-}
-
 .main-container form .links {
     margin-bottom: 100px;
     justify-content: center;

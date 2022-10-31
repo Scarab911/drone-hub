@@ -6,6 +6,7 @@ import Header from './components/header/Header';
 import Main from './components/main/Main';
 import Login from './components/login/Login';
 import Register from './components/register/Register';
+import Profile from './components/user/profile/Profile';
 import './index.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       {/* <Main /> */}
       <Footer />
