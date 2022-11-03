@@ -16,7 +16,7 @@ export default function DropDownMenu() {
         <Link to="/">Atsijungti</Link>
       </DropDownItem> */}
       <DropDownItem>
-        <Link to="/profile">Profilis</Link>
+        <Link to="/profile/my-profile">Profilis</Link>
       </DropDownItem>
       <DropDownItem>
         <Link to="/register">Registruotis</Link>

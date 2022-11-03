@@ -107,3 +107,8 @@ form button:hover {
   height: auto;
   rotate: -90deg;
 }
+
+/*utility*/
+.hidden {
+  display: none;
+}
