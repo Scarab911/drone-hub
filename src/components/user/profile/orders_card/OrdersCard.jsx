@@ -5,6 +5,9 @@ export default function OrdersCard() {
   return (
     <div>
       <OrderItem></OrderItem>
+      <OrderItem></OrderItem>
+      <OrderItem></OrderItem>
+      <OrderItem></OrderItem>
     </div>
   );
 }
