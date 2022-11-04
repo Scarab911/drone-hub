@@ -2,13 +2,13 @@ import React from 'react';
 import './orderItem.css';
 
 export default function OrderItem(props) {
-  const { id, imgUrl, shortDesc, provider, price, hourly, currency } = props;
+  const { id, name, shortDesc, provider, price, hourly, currency } = props;
 
   return (
-    <div className="order-item-container">
+    <div className={`order-item-container ${id % 2 === 0 ? 'even' : null}`}>
       <ul>
         <li>{`${id}.`}</li>
-        <li>{imgUrl}</li>
+        <li>{name}</li>
         <li>{shortDesc}</li>
         <li>{provider}</li>
         <li>

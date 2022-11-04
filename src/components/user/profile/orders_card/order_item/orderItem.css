@@ -2,5 +2,9 @@
     display: flex;
     gap: 10px;
     list-style-type: none;
-    border: 1px solid crimson;
+    text-transform: capitalize;
+}
+
+.even {
+    background-color: red;
 }

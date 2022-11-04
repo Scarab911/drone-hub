@@ -1,10 +1,13 @@
 import React from 'react';
 import OrderItem from './order_item/OrderItem';
 
+//css
+import './ordersCard.css';
+
 const ordersList = [
   {
     id: '1',
-    imgUrl: 'lol',
+    name: 'fotografimas',
     shortDesc: 'labas',
     provider: 'Saulius',
     price: 10,
@@ -13,8 +16,8 @@ const ordersList = [
   },
   {
     id: '2',
-    imgUrl: 'lol2222',
-    shortDesc: 'bye bye',
+    name: 'marketingo akcija',
+    shortDesc: 'jusu reklama',
     provider: 'Petras',
     price: 100,
     currency: 'EUR',
@@ -22,7 +25,7 @@ const ordersList = [
   },
   {
     id: '3',
-    imgUrl: 'kukuraruieku',
+    name: 'filmavimas',
     shortDesc: 'viena karta kaime',
     provider: 'Antanas',
     price: 15,
@@ -33,11 +36,11 @@ const ordersList = [
 
 export default function OrdersCard() {
   return (
-    <>
+    <div className="orders-card">
       {ordersList.map((order) => (
         <OrderItem
           id={order.id}
-          imgUrl={order.imgUrl}
+          name={order.name}
           shortDesc={order.shortDesc}
           provider={order.provider}
           price={order.price}
@@ -46,6 +49,6 @@ export default function OrdersCard() {
           key={order.id}
         />
       ))}
-    </>
+    </div>
   );
 }

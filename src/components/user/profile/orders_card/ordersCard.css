@@ -1,0 +1,7 @@
+.orders-card {
+    margin-top: 10px;
+}
+
+.orders-card:nth-child(even) {
+    background-color: #f9f9f9;
+}
