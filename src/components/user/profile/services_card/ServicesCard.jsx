@@ -5,11 +5,7 @@ import './servicesCard.css';
 
 export default function ServicesCard() {
   return (
-    <div>
-      <div>
-        <p>ServicesCard</p>
-      </div>
-
+    <div className="services-card-container">
       <div className="btn-box">+</div>
       <p>Prideti paslauga</p>
     </div>

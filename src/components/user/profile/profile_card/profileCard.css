@@ -2,9 +2,9 @@
     display: grid;
     grid-template-columns: max-content max-content max-content;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 'photo . .'
-        'photo name surname'
-        'photo city .';
+    grid-template-areas: 'photo name surname'
+        'photo city .'
+        'photo edit .';
     column-gap: 10px;
     justify-content: center;
     align-items: center;
@@ -21,15 +21,24 @@
 
 .user-name {
     grid-area: name;
+    align-self: end;
 }
 
 .user-surname {
     grid-area: surname;
+    align-self: end;
 }
 
 .user-city {
     grid-area: city;
-    align-self: baseline;
+}
+
+.user-edit {
+    grid-area: edit;
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #26ad26;
 }
 
 .user-name,
