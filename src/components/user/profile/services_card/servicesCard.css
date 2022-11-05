@@ -1,0 +1,10 @@
+.btn-box {
+    max-width: 50px;
+    height: 60px;
+    background-color: #808080da;
+    border-radius: 15px;
+    border: 1px solid #000000a1;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
