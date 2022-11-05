@@ -1,7 +1,10 @@
-.orders-card {
+/* .orders-card {
     margin-top: 10px;
 }
 
-.orders-card:nth-child(even) {
-    background-color: #f9f9f9;
-}
+.thumbnail {
+    display: grid;
+    grid-template-columns: 10ch 18ch 20ch 20ch 11ch 8ch 8ch;
+    grid-template-rows: unset;
+    padding: 5px 15px;
+} */
