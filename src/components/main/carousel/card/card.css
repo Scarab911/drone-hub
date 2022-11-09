@@ -27,6 +27,7 @@
     grid-area: title;
     text-align: center;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .from {
