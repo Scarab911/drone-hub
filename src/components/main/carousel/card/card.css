@@ -42,7 +42,7 @@
 
 .btn {
     border-radius: 50%;
-    background-color: #02C172;
+    /* background-color: #02C172; */
     border: none;
     grid-area: button;
     justify-self: end;

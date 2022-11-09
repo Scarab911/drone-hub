@@ -1,3 +1,6 @@
+/*VARIABLES*/
+@import './variables.css';
+
 body,
 body * {
   margin: 0;
@@ -20,7 +23,7 @@ form {
   flex-direction: column;
   gap: 20px;
   padding: 50px 90px;
-  background-color: #F9F9F9;
+  background-color: var(--primary-background-color);
   border-radius: 20px;
   margin: 45px 0 35px 0;
 }
@@ -49,13 +52,13 @@ form input {
 }
 
 form input:focus-visible {
-  outline: 1px solid #02C172;
+  outline: 1px solid var(--primary-button-color);
 }
 
 form .links a {
   text-align: center;
   font-size: 10px;
-  color: #02C172;
+  color: var(--primary-button-color);
   cursor: pointer;
   text-decoration: none;
 }
@@ -64,7 +67,7 @@ form button {
   padding: 10px 20px;
   border: none;
   border-radius: 15px;
-  background-color: #02C172;
+  background-color: var(--primary-button-color);
   color: #fff;
   cursor: pointer;
 }
@@ -79,7 +82,7 @@ form button:hover {
   width: 100%;
   padding: 10px 15px;
   border-radius: 20px;
-  background-color: #f9f9f9;
+  background-color: var(--primary-background-color);
   font-size: 16px;
   line-height: 25px;
 }
@@ -107,11 +110,12 @@ form button:hover {
 /*Profile list cards styles*/
 
 .row-even {
-  background-color: #f9f9f9;
+  background-color: var(--primary-background-color);
 }
 
 .orders-card,
-.favorites-card {
+.favorites-card,
+.services-card {
   margin-top: 10px;
 }
 
