@@ -74,4 +74,10 @@
     .description .button {
         justify-self: center;
     }
+
+    .description p {
+        margin: 15px 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
 }
