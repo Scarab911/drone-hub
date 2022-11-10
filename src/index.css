@@ -17,6 +17,22 @@ code {
     monospace;
 }
 
+/*LAYOUT n MARGINS*/
+.main-container,
+.header-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media (max-width: 920px) {
+
+  .main-container,
+  .header-container {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
 /*LOGIN AND REGISTER FORMS  BUTTON CSS GLOBAL*/
 form {
   display: flex;
@@ -81,7 +97,7 @@ form button:hover {
 .location-bar {
   width: 100%;
   padding: 10px 15px;
-  border-radius: 20px;
+  border-radius: 5px 20px 20px 5px;
   background-color: var(--primary-background-color);
   font-size: 16px;
   line-height: 25px;
