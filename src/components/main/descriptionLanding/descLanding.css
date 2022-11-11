@@ -41,3 +41,41 @@
     font-size: 16px;
     line-height: 26px;
 }
+
+@media (max-width: 1100px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .desc-container p {
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .desc1,
+    .desc2 {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .desc-container p {
+        -webkit-line-clamp: 5;
+    }
+}
+
+@media (max-width: 600px) {
+    .desc-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'img2' 'desc1 '
+            'img1' 'desc2';
+        text-align: center;
+    }
+}

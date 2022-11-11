@@ -16,9 +16,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: 'title title'
-        'from .'
-        'price button';
+    grid-template-areas: 'title title title'
+        'from . . '
+        'price price button';
     padding: 15px;
     background-color: #F9F9F9;
 }
@@ -38,6 +38,7 @@
     grid-area: price;
     font-size: 24px;
     font-weight: bold;
+    align-self: center;
 }
 
 .btn {
